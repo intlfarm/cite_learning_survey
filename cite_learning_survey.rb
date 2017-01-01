@@ -922,7 +922,7 @@ def cite_learning_styles
   elsif visual_language_count * 2  > 19
     puts "Visual Language is a minor learning style!"
   else visual_language_count * 2 <= 18
-    puts "Visual Language is a neglible learning style"
+    puts "Visual Language is a neglible learning style!"
   end
 
   if
@@ -931,7 +931,7 @@ def cite_learning_styles
   elsif visual_numerical_count * 2  > 19
     puts "Visual-Numerical is a minor learning style!"
   else visual_numerical_count * 2  <= 18
-    puts "Visual-Numerical is a neglible learning style"
+    puts "Visual-Numerical is a neglible learning style!"
   end
 
   
@@ -941,7 +941,7 @@ def cite_learning_styles
   elsif auditory_language_count * 2   > 19
     puts "Auditory-Language is a minor learning style!"
   else auditory_language_count * 2  <= 18
-    puts "Auditory-Language is a neglible learning style"
+    puts "Auditory-Language is a neglible learning style!"
   end
 
   if
@@ -950,7 +950,7 @@ def cite_learning_styles
   elsif auditory_numerical_count * 2  > 19
     puts "Auditory-Numerical is a minor learning style!"
   else auditory_numerical_count * 2  <= 18
-    puts "Auditory-Numerical is a neglible learning style"
+    puts "Auditory-Numerical is a neglible learning style!"
   end
 
   if
@@ -959,7 +959,7 @@ def cite_learning_styles
   elsif auditory_visual_kinesthetic_count * 2  > 19
     puts "Auditory-Visual-Kinesthetic is a minor learning style!"
   else auditory_visual_kinesthetic_count * 2  <= 18
-    puts "Auditory-Visual-Kinesthetic is a neglible learning style"
+    puts "Auditory-Visual-Kinesthetic is a neglible learning style!"
   end
 
   if
@@ -968,16 +968,16 @@ def cite_learning_styles
   elsif social_individual_count * 2 > 19
     puts "Social-Individual is a minor learning style!"
   else social_individual_count * 2  <= 18
-    puts "Social-Individual is a neglible learning style"
+    puts "Social-Individual is a neglible learning style!"
   end
 
   if
   social_group_count * 2  >= 33
     puts "Social-Group is a major learning style!"
   elsif social_group_count * 2  > 19
-    puts "Social-Group  is a minor learning style!"
+    puts "Social-Group is a minor learning style!"
   else social_group_count * 2  <= 18
-    puts "Social-Group  is a neglible learning style"
+    puts "Social-Group is a neglible learning style!"
   end
 
   if
@@ -986,16 +986,16 @@ def cite_learning_styles
   elsif expressiveness_oral_count * 2 > 19
     puts "Expressiveness-Oral is a minor learning style!"
   else expressiveness_oral_count * 2  <= 18
-    puts "Expressiveness-Oral is a neglible learning style"
+    puts "Expressiveness-Oral is a neglible learning style!"
   end
 
   if
   expressiveness_written_count * 2  >= 33
     puts "Expressiveness-Written is a major learning style!"
   elsif expressiveness_written_count * 2  > 19
-    puts "Expressiveness-Written  is a minor learning style!"
+    puts "Expressiveness-Written is a minor learning style!"
   else expressiveness_written_count * 2  <= 18
-    puts "Expressiveness-Written  is a neglible learning style"
+    puts "Expressiveness-Written is a neglible learning style!"
   end
 end
 
