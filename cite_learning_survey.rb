@@ -916,6 +916,8 @@ def cite_learning_styles
         puts "Please input either 4, 3, 2, 1"
       end
     end
+  
+  puts ""
 
   if visual_language_count * 2 > 33
     puts "Visual Language is a major learning style!"
