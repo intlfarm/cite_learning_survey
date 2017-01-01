@@ -158,7 +158,6 @@ def cite_learning_styles
     end
 
   puts "\n8. If I need help in the subject, I will ask a classmate for help."
-    user_answer = gets.to_i
     while user_input = gets.to_i
       case user_input
       when user_input = 1
@@ -177,8 +176,6 @@ def cite_learning_styles
         puts "Please input either 4, 3, 2, 1"
       end
     end
-
-
 
   puts "\n9. I understand a math problem that is written down better than one I hear."
     while user_input = gets.to_i
@@ -260,7 +257,6 @@ def cite_learning_styles
       end
     end
 
-
   puts "\n13. I would rather read a story than listen to it read."
     while user_input = gets.to_i
       case user_input
@@ -341,7 +337,6 @@ def cite_learning_styles
       end
     end
 
-
   puts "\n17. Written math problems are easier for me to do than oral ones."
     while user_input = gets.to_i
       case user_input
@@ -382,7 +377,6 @@ def cite_learning_styles
       end
     end
 
-
   puts "\n19. I find it easier to remember what I have heard than what I have read."
     while user_input = gets.to_i
       case user_input
@@ -422,7 +416,6 @@ def cite_learning_styles
         puts "Please input either 4, 3, 2, 1"
       end
     end
-
 
   puts "\n21. I like written directions better than spoken ones."
     while user_input = gets.to_i
@@ -504,7 +497,6 @@ def cite_learning_styles
       end
     end
 
-
   puts "\n25. Seeing a number makes more sense to me than hearing a number."
     while user_input = gets.to_i
       case user_input
@@ -545,7 +537,6 @@ def cite_learning_styles
       end
     end
 
-
   puts "\n27. The things I write on paper sound better than when I say them."
     while user_input = gets.to_i
       case user_input
@@ -585,7 +576,6 @@ def cite_learning_styles
         puts "Please input either 4, 3, 2, 1"
       end
     end
-
 
   puts "\n29. I would rather read things in a book than have the teacher tell me about them"
     while user_input = gets.to_i
@@ -867,7 +857,6 @@ def cite_learning_styles
       end
     end
 
-
   puts "\n43. Sometimes I say dumb things, but writing gives me time to correct myself."
     while user_input = gets.to_i
       case user_input
@@ -928,8 +917,6 @@ def cite_learning_styles
       end
     end
 
-
-
   if visual_language_count * 2 > 33
     puts "Visual Language is a major learning style!"
   elsif visual_language_count * 2  > 19
@@ -947,6 +934,7 @@ def cite_learning_styles
     puts "Visual-Numerical is a neglible learning style"
   end
 
+  
   if
   auditory_language_count * 2  >= 33
     puts "Auditory-Language is a major learning style!"
